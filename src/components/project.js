@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button';
+import LazyLoad from 'react-lazyload';
 // import Button from '@material-ui/core/Button';
 // import Dialog from '@material-ui/core/Dialog';
 // import DialogActions from '@material-ui/core/DialogActions';
@@ -26,16 +27,20 @@ function Project(props){
       };
     return(
         <div className = "project">
-            <div className = "project-name-box">
-                <p className = "project-name">
-                    {props.name}
-                </p>
-            </div>
-            <div className = "project-used-box">
-                <p className = "project-used">
-                    {props.used}
-                </p>
-            </div>
+            <LazyLoad offset = {[0,250]}>
+                <div className = "project-name-box">
+                    <p className = "project-name">
+                        {props.name}
+                    </p>
+                </div>
+            </LazyLoad>
+            <LazyLoad offset = {[0,250]}>
+                <div className = "project-used-box">
+                    <p className = "project-used">
+                        {props.used}
+                    </p>
+                </div>                                      
+            </LazyLoad>
             <div onClick = {handleClickOpen} className = "img-box">
                 <img className = "img" src = {props.img1} alt = "Not found"/>
                 {props.image ? <img className = "img" src = {props.img2} alt = "Not found"/> : <div></div>}
@@ -52,7 +57,7 @@ function Project(props){
                     <div className = "m-body">
                         <div className = "m-img-box">
                             <img className = "m-img"src = {props.img1} alt ="Not Found"/>
-                            <img className = "m-img" src = {props.img2} alt = "Not Found"/>
+                            {props.image? <img className = "m-img" src = {props.img2} alt = "Not Found"/> : <div></div>}
                         </div>
                         <div className = "m-content">
                             <h4 className = "m-name">

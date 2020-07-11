@@ -1,22 +1,101 @@
 import React from 'react';
 import Underline from './underline';
 import Project from './project';
+import LazyLoad from 'react-lazyload';
+import p1 from "../img/1.jpg";
+import p2 from "../img/2.jpg";
+import p3 from "../img/3.jpg";
+import p4 from "../img/4.jpg";
+import p5 from "../img/5.jpg";
+import p6 from "../img/6.jpg";
+import p7 from "../img/7.jpg";
+import p8 from "../img/8.jpg";
+import p9 from "../img/9.jpg";
+import p10 from "../img/10.jpg";
+import p11 from "../img/11.jpg";
 
 function Projects(){
 
     return(
         <div className = "project-box">
-            <div className = "project-text-box">
-                <p className = "project-text">Projects</p>
-                <Underline/>
-            </div>
+            <LazyLoad offset = {[0,250]}>
+                <div className = "project-text-box">
+                    <p className = "project-text">Projects</p>
+                    <Underline/>
+                </div>
+            </LazyLoad>
             <div className = "project-box-2">
-                <Project desc = {"Made using love, in 2 months deadline"} android = {"https://play.google.com/store/apps/details?id=com.skyit.dictionary&hl=en"} used = {"iOS / Swift & Android / Kotlin & Firebase"} name = {"Kalimaty Dictionary"} img2 = {"https://lh3.googleusercontent.com/zGGoJBgt6DNiQOLhWx1J0HZX9aBUe8Z_QYI0eNR4u47TGvbzzZJCCNqtOgESRh00UgQ=w1916-h959-rw"} image = {1} img1 = {"https://lh3.googleusercontent.com/1IXg9H7AMtwPsIhfObFpAYS_cDsOGOBQMVuQeCZpbkiNSKgsQz3wdCN2troiPkFkyA=w1920-h969-rw"}/>
-                <Project desc = {""} android = {"https://play.google.com/store/apps/details?id=thinkit.qpay.hesab&hl=en"} used = {"iOS / Swift & Android / Kotlin & Firebase"} name = {"7sab"} img1 = {"https://lh3.googleusercontent.com/soFoEM50h4aL0DbBsncReYhythwVvcq7sCu85QryDrAjBofFClf9ZNzoatzPpzeANA=w1916-h959-rw"} image = {1} img2 = {"https://lh3.googleusercontent.com/iQnnYJjVhGmLt99B19wz-xmfOMngTDguzDtPpl41b142d4X24Ox2ytspMSvxIvSF4BA=w1916-h959-rw"}/>
-                <Project desc = {""} android = {"https://play.google.com/store/apps/details?id=thinkit.aswaq&hl=en"} used = {"iOS / Swift & Android / Kotlin & Firebase"} name = {"Aswaq"} img1 = {"https://lh3.googleusercontent.com/fbSoywWcJR-5nP01wZ0uNinFwtMmqYZdvDMut88taqt0O5wLpk2tQCuF3HNg2oL7Qvk=w1916-h959-rw"} image = {0} img2 = {""}/>
-                <Project desc = {""} android = {"https://play.google.com/store/apps/details?id=com.wcreations.trainingrooms&hl=en"} image = {1} used = {"iOS / Swift & Android / Kotlin & Firebase"} name = {"QatarCare EDU"} img1 = {"https://lh3.googleusercontent.com/hE2prasyupxlvN7zxP0b597BD_DzjsQLvFDI5Dyfalb0J7_18JOzGWJpeuStIqtaqtg=w1916-h959-rw"} img2 = {"https://lh3.googleusercontent.com/s3GT4FBSgM2LQ19bbDjn85HZai4WWu5F78W3Dg_iGQ6-7H6_bEoDzpK6v9U_Nd1M0CA=w1916-h959-rw"}/>
-                <Project desc = {""} android = {""} image = {1} used = {"iOS / Swift & Android / Kotlin & Firebase"} name = {"Healfy"} img2 = {"https://cdn.discordapp.com/attachments/558386070094479390/715882895448735744/Screenshot_20200529-140242_Helfy.jpg"} img1 = {"https://cdn.discordapp.com/attachments/558386070094479390/715882895448735744/Screenshot_20200529-140242_Helfy.jpg"}/>
-                <Project desc = {""} android = {""} image = {1} used = {"Android / Kotlin & Firebase"} name = {"Staff Manager"} img2 = {"https://cdn.discordapp.com/attachments/558386070094479390/715882895448735744/Screenshot_20200529-140242_Helfy.jpg"} img1 = {"https://cdn.discordapp.com/attachments/558386070094479390/715882895448735744/Screenshot_20200529-140242_Helfy.jpg"}/>
+                <Project 
+                desc = {`A personal dictionary app crafted for people who prefer to create their own
+                dictionaries for English language or any language you want to learn and memorize
+                its words. It includes features like adding, removing, updating words and
+                categories, pronunciation helper, and cross platform syncronization using Firebase.`} 
+                android = {"https://play.google.com/store/apps/details?id=com.skyit.dictionary&hl=en"} 
+                used = {"iOS, Swift, Android, Kotlin, Firebase, external dictionary API."} 
+                name = {"Kalimaty Dictionary"} 
+                img1 = {p1} 
+                img2 = {p2}
+                image = {1}
+                />
+                <Project 
+                desc = {`(pronounced HESAB), is a payment solution, the first payment gateway in
+                Qatar. A platform that provides businesses, merchants and other service
+                providers a payment collection method that helps merchants facilitate
+                payment schemes at the convenience of their customers that is beneficial for
+                everyone. 7sab is a unified place for online invoicing and payment gateway to
+                ease commerce and money collections from customers.`} 
+                android = {"https://play.google.com/store/apps/details?id=thinkit.qpay.hesab&hl=en"} 
+                used = {"iOS, Swift, Android, Kotlin, Thrift, Reactive Streams."} 
+                name = {"7sab"} 
+                img1 = {p3} 
+                image = {1} 
+                img2 = {p4}
+                />
+                <Project 
+                desc = {`Aswaq is an ambitiuous project to reinvent the third party selling and buying
+                market. One is able to create his own shops, post items for sell as normal 
+                productions or various types of auctions, buy products. Highly customizable,
+                meant to fit the needs of any sellers.`} 
+                android = {"https://play.google.com/store/apps/details?id=thinkit.aswaq&hl=en"} 
+                used = {"iOS, Swift, Android, Kotlin, Thrift, Reactive Streams."} 
+                name = {"Aswaq"} 
+                img1 = {p5} 
+                image = {0} 
+                img2 = {""}
+                />
+                <Project 
+                desc = {`Education events app is an application made by Qatar care, Doha to present
+                to the interested public the accredited courses that we offer.
+                A interested visitor can see all the details about the topic and what he/she can
+                learn about that topic, information about speakers, location of the training
+                session. Then, one can register through the app and pay for the session.`} 
+                android = {"https://play.google.com/store/apps/details?id=com.wcreations.trainingrooms&hl=en"} 
+                image = {1} used = {"iOS, Swift, Android, Kotlin, Thrift, Reactive Streams."} 
+                name = {"QatarCare EDU"} 
+                img1 = {p6} 
+                img2 = {p7}
+                />
+                <Project 
+                desc = {`Ambitious start up aimed at improving the healthcare system, by providing
+                everyone with the chance to make appointments through the app. The
+                doctor’s are able to manage their schedule and clients accordingly. All in one
+                place through the mobile app.`} 
+                android = {""} 
+                image = {1} 
+                used = {"Android, Kotlin, gRPC, oAuth, Reactive Streams"} 
+                name = {"Helfy"} 
+                img2 = {p8} 
+                img1 = {p9}
+                />
+                <Project 
+                desc = {`Minimalistic News App for everyone. You can see the latest headlines and search for specific topics as well as filter by sources and categories. Also available in dark mode.`} 
+                android = {""} 
+                image = {1} 
+                used = {"Kotlin, Firebase, RetroFit, Room, NewsApi"} 
+                name = {"Your News"} 
+                img2 = {p10} 
+                img1 = {p11}
+                />
             </div>
         </div>
     )

@@ -6,7 +6,7 @@ function Present(){
     }
     return(
         <div className = "present-box">
-            <a href = "https://dev-vanilla.com" className = "dev">Developed By Vanilla</a>
+            <a href = "https://github.com/Vanilla2" className = "dev">Developed By Vanilla</a>
             <span className = "present-box-first">
                 <p className = "present-text">
                     Hello, I'm
