@@ -27,20 +27,16 @@ function Project(props){
       };
     return(
         <div className = "project">
-            <LazyLoad offset = {[0,250]}>
-                <div className = "project-name-box">
-                    <p className = "project-name">
-                        {props.name}
-                    </p>
-                </div>
-            </LazyLoad>
-            <LazyLoad offset = {[0,250]}>
-                <div className = "project-used-box">
-                    <p className = "project-used">
-                        {props.used}
-                    </p>
-                </div>                                      
-            </LazyLoad>
+            <div className = "project-name-box">
+                <p className = "project-name">
+                    {props.name}
+                </p>
+            </div>
+            <div className = "project-used-box">
+                <p className = "project-used">
+                    {props.used}
+                </p>
+            </div>
             <div onClick = {handleClickOpen} className = "img-box">
                 <img className = "img" src = {props.img1} alt = "Not found"/>
                 {props.image ? <img className = "img" src = {props.img2} alt = "Not found"/> : <div></div>}
@@ -73,6 +69,18 @@ function Project(props){
                     </div>
                 </Modal.Body>
                 <Modal.Footer>
+                    {props.android.length !== 0 ?
+                    <a href = {props.android}>
+                        <Button variant="success" onClick={handleClose}>
+                            Android
+                        </Button>
+                    </a> : <div/>}
+                    {props.ios.length !== 0 ?
+                    <a href = {props.ios}>
+                        <Button variant="danger" onClick={handleClose}>
+                            iOS
+                        </Button>
+                    </a> : <div/>}
                     <Button variant="primary" onClick={handleClose}>
                         Close
                     </Button>

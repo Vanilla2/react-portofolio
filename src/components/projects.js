@@ -30,7 +30,8 @@ function Projects(){
                 dictionaries for English language or any language you want to learn and memorize
                 its words. It includes features like adding, removing, updating words and
                 categories, pronunciation helper, and cross platform syncronization using Firebase.`} 
-                android = {"https://play.google.com/store/apps/details?id=com.skyit.dictionary&hl=en"} 
+                android = {"https://play.google.com/store/apps/details?id=com.skyit.dictionary&hl=en"}
+                ios = ""
                 used = {"iOS, Swift, Android, Kotlin, Firebase, external dictionary API."} 
                 name = {"Kalimaty Dictionary"} 
                 img1 = {p1} 
@@ -44,7 +45,8 @@ function Projects(){
                 payment schemes at the convenience of their customers that is beneficial for
                 everyone. 7sab is a unified place for online invoicing and payment gateway to
                 ease commerce and money collections from customers.`} 
-                android = {"https://play.google.com/store/apps/details?id=thinkit.qpay.hesab&hl=en"} 
+                android = {"https://play.google.com/store/apps/details?id=thinkit.qpay.hesab&hl=en"}
+                ios = ""
                 used = {"iOS, Swift, Android, Kotlin, Thrift, Reactive Streams."} 
                 name = {"7sab"} 
                 img1 = {p3} 
@@ -56,7 +58,8 @@ function Projects(){
                 market. One is able to create his own shops, post items for sell as normal 
                 productions or various types of auctions, buy products. Highly customizable,
                 meant to fit the needs of any sellers.`} 
-                android = {"https://play.google.com/store/apps/details?id=thinkit.aswaq&hl=en"} 
+                android = {"https://play.google.com/store/apps/details?id=thinkit.aswaq&hl=en"}
+                ios = ""
                 used = {"iOS, Swift, Android, Kotlin, Thrift, Reactive Streams."} 
                 name = {"Aswaq"} 
                 img1 = {p5} 
@@ -69,7 +72,8 @@ function Projects(){
                 A interested visitor can see all the details about the topic and what he/she can
                 learn about that topic, information about speakers, location of the training
                 session. Then, one can register through the app and pay for the session.`} 
-                android = {"https://play.google.com/store/apps/details?id=com.wcreations.trainingrooms&hl=en"} 
+                android = {"https://play.google.com/store/apps/details?id=com.wcreations.trainingrooms&hl=en"}
+                ios = ""
                 image = {1} used = {"iOS, Swift, Android, Kotlin, Thrift, Reactive Streams."} 
                 name = {"QatarCare EDU"} 
                 img1 = {p6} 
@@ -80,7 +84,8 @@ function Projects(){
                 everyone with the chance to make appointments through the app. The
                 doctor’s are able to manage their schedule and clients accordingly. All in one
                 place through the mobile app.`} 
-                android = {""} 
+                android = {""}
+                ios = ""
                 image = {1} 
                 used = {"Android, Kotlin, gRPC, oAuth, Reactive Streams"} 
                 name = {"Helfy"} 
@@ -89,7 +94,8 @@ function Projects(){
                 />
                 <Project 
                 desc = {`Minimalistic News App for everyone. You can see the latest headlines and search for specific topics as well as filter by sources and categories. Also available in dark mode.`} 
-                android = {""} 
+                android = {""}
+                ios = ""
                 image = {1} 
                 used = {"Kotlin, Firebase, RetroFit, Room, NewsApi"} 
                 name = {"Your News"} 
