@@ -43,7 +43,7 @@ function About(){
                 {/* <img className = "avatar" src = 'https://avatars0.githubusercontent.com/u/29017749?s=460&u=1c8bbb219e9da4c04c0a4138cbf120fa1cd83044&v=4' alt = "Not found"/> */}
                 <LazyLoad offset = {[0,250]}>
                     <div className = "who-text-box">
-                        <p className = "who-text who-text-1">
+                        <p className = "who-text who-text-1" style = {{textAlign: "center"}}>
                         Full-stack mobile developer, Android Kotlin and iOS Swift with 3 apps in production on
                         both Play Store and App Store.
                         Passionate about writing good code, open minded, able to quickly learn new
@@ -90,30 +90,25 @@ function About(){
                 <LazyLoad offset = {[0,250]}>
                     <div className = "who-text-box">
                         <ol>
-                            <li className="who-text">National Contest in Informatics, Moldova</li>
+                            <li className="who-text">National Contest in Informatics, Moldova - 2016</li>
                             <ul>
                                 <li className="sub">2nd place</li>
-                                <li className="sub">2016</li>
                             </ul>
-                            <li className="who-text">National Contest in Informatics, Moldova</li>
+                            <li className="who-text">National Contest in Informatics, Moldova - 2017</li>
                             <ul>
                                 <li className="sub">3rd place</li>
-                                <li className="sub">2017</li>
                             </ul>
-                            <li className="who-text">National Contest in Informatics, Moldova</li>
+                            <li className="who-text">National Contest in Informatics, Moldova - 2018</li>
                             <ul>
                                 <li className="sub">3rd place</li>
-                                <li className="sub">2018</li>
                             </ul>
-                            <li className="who-text">Catalyst Contest in Informatics Between Universities, Moldova</li>
+                            <li className="who-text">Catalyst Contest in Informatics Between Universities, Moldova - 2018</li>
                             <ul>
                                 <li className="sub">1st place</li>
-                                <li className="sub">2018</li>
                             </ul>
-                            <li className="who-text">DevHacks Hackaton, Romania, Bucharest</li>
+                            <li className="who-text">DevHacks Hackaton, Romania, Bucharest - 2019</li>
                             <ul>
                                 <li className="sub">2nd place</li>
-                                <li className="sub">2016</li>
                             </ul>
                         </ol>
                     </div>
