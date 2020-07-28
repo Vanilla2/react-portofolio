@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa4c5594957f0ebd65f196ad60ee8f36",
+    "revision": "552fdc1ad3a2cb1e46cbfe047cd93599",
     "url": "/index.html"
   },
   {
-    "revision": "7998ecd7297d11a4096b",
-    "url": "/static/css/2.aa8c3a9e.chunk.css"
+    "revision": "51be452ec52128f08b7a",
+    "url": "/static/css/2.a3cab23d.chunk.css"
   },
   {
-    "revision": "3da6fd0fb8ea23d753f3",
-    "url": "/static/css/main.0708a633.chunk.css"
+    "revision": "cea4da6378b95466ba3e",
+    "url": "/static/css/main.65a66b34.chunk.css"
   },
   {
-    "revision": "7998ecd7297d11a4096b",
-    "url": "/static/js/2.639fd1b8.chunk.js"
+    "revision": "51be452ec52128f08b7a",
+    "url": "/static/js/2.9df43b7f.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.639fd1b8.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9df43b7f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3da6fd0fb8ea23d753f3",
-    "url": "/static/js/main.9955e461.chunk.js"
+    "revision": "cea4da6378b95466ba3e",
+    "url": "/static/js/main.46e4e489.chunk.js"
   },
   {
     "revision": "dd799118307fabe4a897",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8d4f4d706e7629642daf535455a2fed4",
     "url": "/static/media/CV_for_freshers.8d4f4d70.pdf"
+  },
+  {
+    "revision": "2928664fe1fc6aca88583a6f606d60ba",
+    "url": "/static/media/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.2928664f.svg"
   },
   {
     "revision": "0cb5a5c0d251c109458c85c6afeffbaa",
@@ -138,5 +142,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e00e52acc697862dd502264e9ecfcb51",
     "url": "/static/media/fontchido.e00e52ac.ttf"
+  },
+  {
+    "revision": "db9b21a1c41f3dcd9731e1e7acfdbb57",
+    "url": "/static/media/google-play-badge.db9b21a1.png"
   }
 ]);

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0708a633.chunk.css",
-    "main.js": "/static/js/main.9955e461.chunk.js",
-    "main.js.map": "/static/js/main.9955e461.chunk.js.map",
+    "main.css": "/static/css/main.65a66b34.chunk.css",
+    "main.js": "/static/js/main.46e4e489.chunk.js",
+    "main.js.map": "/static/js/main.46e4e489.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.54960044.js",
     "runtime-main.js.map": "/static/js/runtime-main.54960044.js.map",
-    "static/css/2.aa8c3a9e.chunk.css": "/static/css/2.aa8c3a9e.chunk.css",
-    "static/js/2.639fd1b8.chunk.js": "/static/js/2.639fd1b8.chunk.js",
-    "static/js/2.639fd1b8.chunk.js.map": "/static/js/2.639fd1b8.chunk.js.map",
+    "static/css/2.a3cab23d.chunk.css": "/static/css/2.a3cab23d.chunk.css",
+    "static/js/2.9df43b7f.chunk.js": "/static/js/2.9df43b7f.chunk.js",
+    "static/js/2.9df43b7f.chunk.js.map": "/static/js/2.9df43b7f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cc39b337ee854d8ee075de9b656881b9.js": "/precache-manifest.cc39b337ee854d8ee075de9b656881b9.js",
+    "precache-manifest.556a6ceacb117aba9d3445c26e692fbf.js": "/precache-manifest.556a6ceacb117aba9d3445c26e692fbf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.aa8c3a9e.chunk.css.map": "/static/css/2.aa8c3a9e.chunk.css.map",
-    "static/css/main.0708a633.chunk.css.map": "/static/css/main.0708a633.chunk.css.map",
-    "static/js/2.639fd1b8.chunk.js.LICENSE.txt": "/static/js/2.639fd1b8.chunk.js.LICENSE.txt",
+    "static/css/2.a3cab23d.chunk.css.map": "/static/css/2.a3cab23d.chunk.css.map",
+    "static/css/main.65a66b34.chunk.css.map": "/static/css/main.65a66b34.chunk.css.map",
+    "static/js/2.9df43b7f.chunk.js.LICENSE.txt": "/static/js/2.9df43b7f.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.02eed0a1.jpg",
     "static/media/10.jpg": "/static/media/10.34402710.jpg",
     "static/media/11.jpg": "/static/media/11.1779712f.jpg",
@@ -26,14 +26,16 @@
     "static/media/8.jpg": "/static/media/8.32c7e953.jpg",
     "static/media/9.jpg": "/static/media/9.e10c32ae.jpg",
     "static/media/CV_for_freshers.pdf": "/static/media/CV_for_freshers.8d4f4d70.pdf",
+    "static/media/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg": "/static/media/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.2928664f.svg",
     "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg",
-    "static/media/fontchido.css": "/static/media/fontchido.e00e52ac.ttf"
+    "static/media/fontchido.css": "/static/media/fontchido.e00e52ac.ttf",
+    "static/media/google-play-badge.png": "/static/media/google-play-badge.db9b21a1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.54960044.js",
-    "static/css/2.aa8c3a9e.chunk.css",
-    "static/js/2.639fd1b8.chunk.js",
-    "static/css/main.0708a633.chunk.css",
-    "static/js/main.9955e461.chunk.js"
+    "static/css/2.a3cab23d.chunk.css",
+    "static/js/2.9df43b7f.chunk.js",
+    "static/css/main.65a66b34.chunk.css",
+    "static/js/main.46e4e489.chunk.js"
   ]
 }
