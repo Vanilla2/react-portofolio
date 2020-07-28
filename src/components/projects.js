@@ -25,13 +25,17 @@ function Projects(){
                 </div>
             </LazyLoad>
             <div className = "project-box-2">
+                {/*7sab - https://apps.apple.com/us/app/7sab/id1439778779?app=itunes&ign-mpt=uo%3D4*/}
+                {/*Aswaa - https://apps.apple.com/us/app/aswaq/id1101190120?app=itunes&ign-mpt=uo%3D4*/}
+                {/*Kalimaty - https://apps.apple.com/us/app/kalimaty/id1497423275?app=itunes&ign-mpt=uo%3D4*/}
+                {/*QatarCare EDU - https://apps.apple.com/us/app/qatarcare-edu/id1460793925?app=itunes&ign-mpt=uo%3D4*/}
                 <Project 
                 desc = {`A personal dictionary app crafted for people who prefer to create their own
                 dictionaries for English language or any language you want to learn and memorize
                 its words. It includes features like adding, removing, updating words and
                 categories, pronunciation helper, and cross platform syncronization using Firebase.`} 
                 android = {"https://play.google.com/store/apps/details?id=com.skyit.dictionary&hl=en"}
-                ios = ""
+                ios ={"https://apps.apple.com/us/app/kalimaty/id1497423275?app=itunes&ign-mpt=uo%3D4"}
                 used = {"iOS, Swift, Android, Kotlin, Firebase, external dictionary API."} 
                 name = {"Kalimaty Dictionary"} 
                 img1 = {p1} 
@@ -46,7 +50,7 @@ function Projects(){
                 everyone. 7sab is a unified place for online invoicing and payment gateway to
                 ease commerce and money collections from customers.`} 
                 android = {"https://play.google.com/store/apps/details?id=thinkit.qpay.hesab&hl=en"}
-                ios = ""
+                ios = "https://apps.apple.com/us/app/7sab/id1439778779?app=itunes&ign-mpt=uo%3D4"
                 used = {"iOS, Swift, Android, Kotlin, Thrift, Reactive Streams."} 
                 name = {"7sab"} 
                 img1 = {p3} 
@@ -59,7 +63,7 @@ function Projects(){
                 productions or various types of auctions, buy products. Highly customizable,
                 meant to fit the needs of any sellers.`} 
                 android = {"https://play.google.com/store/apps/details?id=thinkit.aswaq&hl=en"}
-                ios = ""
+                ios = "https://apps.apple.com/us/app/aswaq/id1101190120?app=itunes&ign-mpt=uo%3D4"
                 used = {"iOS, Swift, Android, Kotlin, Thrift, Reactive Streams."} 
                 name = {"Aswaq"} 
                 img1 = {p5} 
@@ -73,7 +77,7 @@ function Projects(){
                 learn about that topic, information about speakers, location of the training
                 session. Then, one can register through the app and pay for the session.`} 
                 android = {"https://play.google.com/store/apps/details?id=com.wcreations.trainingrooms&hl=en"}
-                ios = ""
+                ios = "https://apps.apple.com/us/app/qatarcare-edu/id1460793925?app=itunes&ign-mpt=uo%3D4"
                 image = {1} used = {"iOS, Swift, Android, Kotlin, Thrift, Reactive Streams."} 
                 name = {"QatarCare EDU"} 
                 img1 = {p6} 

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button';
-import LazyLoad from 'react-lazyload';
+import Google_Play from '../img/google-play-badge.png';
+import App_Store from "../img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg";
 // import Button from '@material-ui/core/Button';
 // import Dialog from '@material-ui/core/Dialog';
 // import DialogActions from '@material-ui/core/DialogActions';
@@ -65,22 +66,14 @@ function Project(props){
                             <p className = "m-text">
                                 {props.desc}
                             </p>
+                            <div style = {{display: "flex", marginTop: '25px'}}>
+                                {(props.ios.length !== 0) ? <img alt = "Not found" style = {{cursor: "pointer", height: "70px"}} className = "Apple" src = {App_Store} onClick={handleIos}/> : null}
+                                {(props.android.length !== 0) ? <img alt = "Not found" style = {{cursor: "pointer", height: "100px", position: "relative", bottom: "14px"}} className="Google" src = {Google_Play} onClick={handleAndroid}/> : null}
+                            </div>
                         </div>
                     </div>
                 </Modal.Body>
                 <Modal.Footer>
-                    {props.android.length !== 0 ?
-                    <a href = {props.android}>
-                        <Button variant="success" onClick={handleClose}>
-                            Android
-                        </Button>
-                    </a> : <div/>}
-                    {props.ios.length !== 0 ?
-                    <a href = {props.ios}>
-                        <Button variant="danger" onClick={handleClose}>
-                            iOS
-                        </Button>
-                    </a> : <div/>}
                     <Button variant="primary" onClick={handleClose}>
                         Close
                     </Button>

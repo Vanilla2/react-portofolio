@@ -58,13 +58,65 @@ function About(){
                     <p className = "exp-name">Work Experience</p>
                 </LazyLoad>
                 <LazyLoad offset = {[0,250]}>
-                    <p className = "exp-text">
-                    1.5 years at ThinkIT as a full-stack mobile developer
-                    and
-                    1 year freelancing on upwork, with 2 long term projects for developing and
-                    maintaining iOS and Android apps.
-
+                    <div className = "who-text-box">
+                        <ol>
+                            <li className="who-text">1.5 years at ThinkIT as a mobile developer, (iOS/swift & Kotlin/Android) </li>
+                            <ul>
+                                <li className="sub">Improved app start up times by more than 70% using caching on existing apps</li>
+                                <li className="sub">Added features to improve UX</li>
+                                <li className="sub">iDeveloped 3 new apps from scratch</li>
+                            </ul>
+                            <li className="who-text">Freelancing on Upwork for 1 year</li>
+                            <ul>
+                                <li className="sub">Developed full stack iOS & Android dictionary app +  Firebase Backend</li>
+                                <li className="sub">Improved user retention by 50% after features requested by customers</li>
+                            </ul>
+                            <li className="who-text">AWS Identity SDE Intern</li>
+                            <ul>
+                                <li className="sub">Worked on internal projects for AWS</li>
+                                <li className="sub">Reduced costs of usage by more than 25% after moving the existing Tech Stack to AWS ECS and Fargate </li>
+                            </ul>
+                        </ol>
+                    </div>
+                </LazyLoad>
+            </div>
+            <div className = "exp-box">
+                <LazyLoad offset = {[0,250]}>
+                    <p className = "exp-name">
+                        Achievements
                     </p>
+                </LazyLoad>
+                {/* <img className = "avatar" src = 'https://avatars0.githubusercontent.com/u/29017749?s=460&u=1c8bbb219e9da4c04c0a4138cbf120fa1cd83044&v=4' alt = "Not found"/> */}
+                <LazyLoad offset = {[0,250]}>
+                    <div className = "who-text-box">
+                        <ol>
+                            <li className="who-text">National Contest in Informatics, Moldova</li>
+                            <ul>
+                                <li className="sub">2nd place</li>
+                                <li className="sub">2016</li>
+                            </ul>
+                            <li className="who-text">National Contest in Informatics, Moldova</li>
+                            <ul>
+                                <li className="sub">3rd place</li>
+                                <li className="sub">2017</li>
+                            </ul>
+                            <li className="who-text">National Contest in Informatics, Moldova</li>
+                            <ul>
+                                <li className="sub">3rd place</li>
+                                <li className="sub">2018</li>
+                            </ul>
+                            <li className="who-text">Catalyst Contest in Informatics Between Universities, Moldova</li>
+                            <ul>
+                                <li className="sub">1st place</li>
+                                <li className="sub">2018</li>
+                            </ul>
+                            <li className="who-text">DevHacks Hackaton, Romania, Bucharest</li>
+                            <ul>
+                                <li className="sub">2nd place</li>
+                                <li className="sub">2016</li>
+                            </ul>
+                        </ol>
+                    </div>
                 </LazyLoad>
             </div>
             <LazyLoad offset = {[0,250]}>

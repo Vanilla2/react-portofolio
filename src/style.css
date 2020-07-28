@@ -125,13 +125,16 @@ body{
     padding:15px;
     grid-area:who;
 }
-.who-text:nth-of-type(1){
+.who-text{
     animation:fade-in 1s;
     grid-area: text;
     margin-top: 15px;
     margin-bottom: 20px;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 30px;
+}
+.sub{
+    font-size: 24px;
 }
 .who-text-title{
     font-weight: 600;
@@ -301,7 +304,6 @@ body{
     font-size: 30px;
 }
 .exp-text{
-    text-align: justify;
     animation:fade-in 1s;
     grid-area: text;
     margin-top: 15px;
@@ -413,6 +415,12 @@ body{
     }
 }
 @media only screen and (max-width: 1150px) and (min-width: 700px){
+    .who-text{
+        font-size: 25px;
+    }
+    .sub{
+        font-size: 21px;
+    }
     .m-img{
         height: 350px;
         margin-right: 5px !important;
@@ -485,6 +493,12 @@ body{
     }
 }
 @media only screen and (max-width: 700px){
+    .who-text{
+        font-size: 21px;
+    }
+    .sub{
+        font-size: 18px;
+    }
     .sp{
         grid-column: 3 / 4;
     }
@@ -558,9 +572,6 @@ body{
     }
     .who-text-1, .exp-text{
         font-size: 20px !important;
-    }
-    .who-text-1{
-        text-align: justify;
     }
     .avatar{
         max-height: 250px;
