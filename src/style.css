@@ -493,6 +493,13 @@ body{
     }
 }
 @media only screen and (max-width: 700px){
+    .Apple{
+        height: 45px !important;
+    }
+    .Google{
+        margin-top: 3px;
+        height: 67px !important;
+    }
     .who-text{
         font-size: 21px;
     }
